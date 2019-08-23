@@ -1,0 +1,43 @@
+.banner{
+    margin-top: -110px;
+    margin-bottom: 30px;
+    }
+body{
+    background-color: #fff;
+}
+p {
+    line-height: 25px;
+}
+h2 {
+color: #006806;
+font-family: Georgia;
+text-align: center;
+}
+
+h3 {
+    font-family: georgia;
+    text-align: center;
+}
+ .content{
+    max-width: 640px;
+    margin: auto;
+    font-size: 20px;
+}
+img {
+    float: left;
+    padding: 15px;
+}
+section > .director{
+    width: 42%
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+shift-focus{
+    color: blue;
+}
