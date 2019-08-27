@@ -28,7 +28,7 @@ img {
     padding: 15px;
 }
 section > .director{
-    width: 42%
+    width: 42%;
 }
 a {
     text-decoration: none;
@@ -38,6 +38,9 @@ a:hover {
     color: red;
     text-decoration: underline;
 }
-shift-focus{
+.shift-focus{
     color: blue;
+}
+hr {
+    width: 50%;
 }
