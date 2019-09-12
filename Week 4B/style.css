@@ -1,0 +1,203 @@
+header {
+    height: 45vh;
+    width: 100%;
+    background-image: url(/images/header.png);
+    margin-top: -6vh;
+}
+.container {
+    height: 32.7vh;
+    width: 160vh;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+.logo > img {
+    width: 50vh;
+    padding-top: 7vh;
+}
+.order-online {
+    float: right;
+    padding-top: 7vh;
+}
+nav {
+    width: 160vh;
+    height: 7vh;
+    background-color: #313131;
+    content: justify;
+}
+nav > ul > li {
+    display: inline;
+    color: #f3a832;
+    padding: 3vh;
+    font-size: 6vh;
+    text-align: center;
+}
+section {
+    text-align: center;
+    max-width: 80%;
+    padding-left: 22vh;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+td {
+   width: 22vw; 
+   color: #f3a832;
+   font-size: 5vh;
+}
+span {
+    padding: 10px;
+}
+span > img {
+    height: 30vh;
+}
+.spacer {
+    height: 6vh;
+    width: 100%;
+}
+article {
+    font-family: 'Heebo', sans-serif;
+
+}
+article > p {
+    text-align: center;
+}
+article > ul {
+    list-style-type: none;
+}
+.container1 {
+    height: 10vh;
+    width: 100%;
+}
+.container2 {
+    height: 7vh;
+    width: 12vw;
+    background-color: #f3a832;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5vh;
+    z-index: 100;
+    position: relative;
+    right: -46vh;
+}
+.container3 {
+    height: 7vh;
+    width: 12vw;
+    background-color: #f3a832;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5vh;
+    z-index: 100;
+    position: relative;
+    right: -96vh;
+    bottom: 10vh;
+}
+.container4 {
+    height: 7vh;
+    width: 12vw;
+    background-color: #f3a832;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5vh;
+    z-index: 100;
+    position: relative;
+    right: -146vh;
+    bottom: 20vh;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+  
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 10s ease infinite;
+}
+  
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+  
+.slide:nth-child(1) {
+    background-image: url("/images/bacon-cheeseburger-peppers.jpg");
+    background-repeat: no-repeat;
+}
+  
+.slide:nth-child(2) {
+    background-image: url("/images/club-sandwich.jpg");
+    background-repeat: no-repeat;
+  }
+  
+.slide:nth-child(3) {
+    background-image: url("/images/chicken-wrap.jpg");
+    background-repeat: no-repeat;
+}
+.slide:nth-child(4) {
+    background-image: url("/images/shake.jpg");
+    background-repeat: no-repeat;
+}
+  
+  
+  
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+
+.footercontainer {
+    height: 13vh;
+    width: 100%;
+    background-color: #AB100C;
+    padding-right: 1vw;
+}
+.footercontainer2 {
+    color: #eba734;
+    position: relative;
+    z-index: 1;
+    left: 36vw;
+    bottom: 9vh;
+}
+.footercontainer3 {
+    color: #eba734;
+    position: relative;
+    
+    
+}
+.logofootercontainer {
+    width: 12.5vw;
+}  
+.logofooter {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    right: -8vw;
+}
+
+.footer2 {
+    height: 4vh;
+    width: 100%;
+    padding-top: 2vh;
+    position: relative;
+    z-index: 1;
+    top: -6vh;
+}
+.footer3 {
+    float: right;
+    position: relative;
+    z-index: 1;
+    top: -3.6vh;
+}

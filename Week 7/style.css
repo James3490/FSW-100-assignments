@@ -1,0 +1,269 @@
+.header-image {
+    background:url('/images/vape\ juice.jpg');
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    position: relative;
+    text-align: right;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.container2 {
+    position: relative;
+    text-align: left;
+    z-index: 100;
+    left: 2px;
+    bottom: 210px;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.text1 {
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    right: 110px;
+    top: 35px;
+}
+.text2 {
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    right: 30px;
+    top: 60px;
+    max-width: 315px;
+}
+.cloud {
+    width: 400px;
+    height: auto;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.BOB {
+    width: 280px;
+    height: auto;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #75B8BF;
+}    
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #B4D2D9;
+  }
+h1 {
+    text-align: center;
+    color: #F5A623;
+    padding: 0px;
+    margin: 20px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-top: -35px;
+}
+tbody {
+    color: black;
+}
+th {
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+.flavors100 {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #0C0C0D;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+.flavors100 * {
+    padding: 15px;
+}
+.flavors100 > p {
+    margin-top: -35px;
+}
+.flavors100 > h2 {
+    margin-top: -5px;
+}
+
+.CBD {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-color: #42858C;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+}
+.CBD * {
+    padding: 15px;
+}
+.CBD > p {
+    margin-top: -40px;
+}
+.CBD > h2 {
+    margin-top: -5px;
+}
+
+/* beginning of contact page */
+.container4 {
+    border-radius: 5px;
+    background-color:#B4D2D9;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: rgb(104, 172, 172);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(104, 172, 172);;
+}
+ /* ending of contact page */ 
+
+/* beginning of flashing warning message */
+.blinking{
+    animation:blinkingText 0.8s infinite;
+    float: center;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}
+/* ending of flashing warning message */
+
+.juul-page {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.juul-image {
+    width: 600px;
+    height: auto;
+    float: left;
+}
+.juno-page {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.juno-image {
+    width: 500px;
+    height: auto;
+    float: left;
+}
+
+
+
+.footer {
+      display: block;
+      width: 100%;
+      height: 225px;
+      background: #75B8BF;
+}
+.logo {
+      width: 200px;
+      height: auto;
+      z-index: 100;
+      left: 2px;
+      bottom: -2px;
+}
+
+.copyright {
+    position: absolute;
+    float: top;
+}
+
+.container3 {
+    position: relative;
+    text-align: left;
+}
+
+.container3 > h5 {
+    z-index: 100;
+    left: 2px;
+    bottom: -40px;
+}
+
+.container5 { /* Social Media container */
+    text-align: center;
+}
+i { /* This changes the social media icons */
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+    left: 200px;
+    bottom: 65px;
+    font-size: 4em;
+}
+.fa-facebook-f {
+    color: #4267b2
+}
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+}
