@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 1em;
+    row-gap: 1em;
+    background-color: yellow;
+}
+.box1 {
+    grid-column: span 2;
+    height: 16vh;
+    background-color: red;
+}

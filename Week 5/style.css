@@ -11,49 +11,41 @@
     height: 16vh;
 }
 .box2 {
-    display: grid;
     background-color:  #EE2E84;
     grid-column: span 1;
     height: 16vh;
 }
 .box3 {
-    display: grid;
     background-color:  #EE2E84;
     grid-column: span 1;
     height: 16vh;
 }
 .box4 {
-    display: grid;
     background-color:  #EE2E84;
     grid-column: span 1;
     height: 16vh;
 }
 .box5 {
-    display: grid;
     background-color:  #EE2E84;
     grid-column: span 1;
     height: 16vh;
 }
 .box6 {
-    display: grid;
     background-color:  #85CFD8;
     grid-column: span 2;
     height: 16vh;
 }
 .box7 {
-    display: grid;
     background-color:  #85CFD8;
     grid-column: span 2;
     height: 16vh;
 }
 .box8 {
-    display: grid;
     background-color:  #8DC63F;
     grid-column: span 3;
     height: 16vh;
 }
 .box9 {
-    display: grid;
     background-color:  #E76E34;
     grid-column: span 1;
     height: 16vh;
