@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 5vw;
+}
+
+.box1 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+}
+.box1:hover {
+    background-color: red;
+    border: 4px groove black;
+    box-shadow: 5px 10px;
+    transition: 1s;
+}
+
+.box2 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+}
+.box2:hover {
+    background-color: yellow;
+    border-radius: 50%;
+    transition: 1s;
+}
+.box3 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+    -webkit-transition: height 2s, width 2s; /* For Safari 3.1 to 6.0 */
+  transition: height 2s, width 3s;
+  
+}
+.box3:hover {
+    width: 30vw;
+    height: 60vh;
+}
+.box4 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+}
+.box4:hover {
+    opacity: .2;
+    border-radius: 25%;
+    background-color: blue;
+    transition: 1s;
+}
+.box5 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+}
+.box5:hover {
+    background-image: url(https://media.giphy.com/media/wW95fEq09hOI8/giphy.gif);
+    width: 400px;
+    height: 360px;
+    transition: 1s;
+}
+.box6 {
+    width: 16vw;
+    height: 30vh;
+    background-color: green;
+    margin: 3em;
+}
+.box6:hover {
+    background-color: red;
+  -webkit-animation-name: colorchange; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: colorchange;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorchange {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes colorchange {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+}
