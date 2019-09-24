@@ -12,12 +12,13 @@
     height: 30vh;
     background-color: green;
     margin: 3em;
+    transition: all 1s;
 }
 .box1:hover {
     background-color: red;
     border: 4px groove black;
     box-shadow: 5px 10px;
-    transition: 1s;
+    transition: all 1s;
 }
 
 .box2 {
@@ -25,11 +26,12 @@
     height: 30vh;
     background-color: green;
     margin: 3em;
+    transition: all 1s;
 }
 .box2:hover {
     background-color: yellow;
     border-radius: 50%;
-    transition: 1s;
+    transition: all 1s;
 }
 .box3 {
     width: 16vw;
@@ -49,18 +51,20 @@
     height: 30vh;
     background-color: green;
     margin: 3em;
+    transition: all 1s;
 }
 .box4:hover {
     opacity: .2;
     border-radius: 25%;
     background-color: blue;
-    transition: 1s;
+    transition: all 1s;
 }
 .box5 {
     width: 16vw;
     height: 30vh;
     background-color: green;
     margin: 3em;
+    transition: all 1s;
 }
 .box5:hover {
     background-image: url(https://media.giphy.com/media/wW95fEq09hOI8/giphy.gif);
