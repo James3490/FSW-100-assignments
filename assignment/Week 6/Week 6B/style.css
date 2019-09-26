@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(64,59,61, 0.75);
+    --primary-color: rgb(23,21,21, 0.75);
     --overlay-color: rgb(127,119,121, 0.85);
     --menu-speed: 0.75s;
 }
@@ -50,7 +50,7 @@ body {
     position: relative;
     flex: none;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ body {
     z-index: 1;
     top: -10px;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: inherit;
 }
 
@@ -157,16 +157,14 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(21vh) minmax(6vh) minmax(48vh) minmax(90vh) minmax(65vh) minmax(100vh) minmax(48vh);
     grid-template-areas:
     "header header"
     "navbar navbar"
     "main1 main1"
     "main2 main2"
     "main3 main3"
-    "main4 main4"
     "footer footer"
-}
+  }
 
 .header {
     grid-column-start: 1;
@@ -177,10 +175,15 @@ body {
 }
 .header > img {
     width: 100%;
-    height: auto;
+    height: 45vh;
 }
 
 .navbar {
+    height: 6vh;
+    margin-top: -1.5vh;
+    color: white;
+    text-align: center;
+    font-size: 5vh;
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: var(--primary-color);
@@ -191,8 +194,10 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: #ffff;
+    
     text-align: center;
     justify-content: center;
+    align-items: center;
     grid-area: main1;
 }
 .main1images {
@@ -205,9 +210,14 @@ body {
     background-color: #BFB2B6;
     color: #fff;
     padding: 0 2em;
+    font-family: 'Roboto', sans-serif;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-area: main2;
+}
+.main2 h1 {
+    text-align: center;
+    text-decoration: underline;
 }
 .main2 p {
     font-size: 1.4em;
@@ -217,32 +227,107 @@ body {
     color: #fff;
    background-color: #E6D5DA;
    padding: 0 2em;
-   grid-column-start: 2;
+   grid-column-start: 1;
     grid-column-end: 3;
     grid-area: main3;
+}
+
+.main3 h1 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .main3 p {
     font-size: 1.4em;
 }
-.main4 {
-    color: #fff;
-   background-color: #E6D5DA;
-   padding: 0 2em;
-   grid-column-start: 2;
-    grid-column-end: 3;
-    background-size: 100%;
-    grid-area: main4;
-}
 
 .footer {
+    height: 21vh;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: var(--primary-color);
     grid-area: footer;
 }
 
+.footermenu {
+    z-index: 1;
+    position: relative;
+    right: -1vw;
+    color: white;
+}
+.footermenu ul li {
+    list-style-type: none;
+    float: left;
+    padding: 1.2em;
+    font-size: 1em;
+}
+
+.footermenu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    padding-left: 1em;
+}
+
+
+.fa-facebook-f {
+    padding: 1.3em;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    float: left;
+}
+
+.fa-instagram {
+    padding: 1.3em;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr th img {
+    width: 20vh;
+    height: auto;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+
+
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .main2 h1 {
+        text-decoration: none;
+        font-weight: bold;    
+}
+    .main3 h1 {
+        text-decoration: none;
+        font-weight: bold;
+}
+.footermenu {
+    z-index: 1;
+    position: relative;
+    right: -1vw;
+    top: 2vw;
+    color: white;
+}
+.footermenu ul li {
+    list-style-type: none;
+    float: left;
+    padding: 1.2em;
+    font-size: 1em;
+}
+
+}
 
 @media (min-width: 768px) and (max-width: 1300px) {
     .container {
@@ -254,7 +339,23 @@ body {
         "main1 main1"
         "main2 main3"
         "footer footer"
+}
+    .main2 h1 {
+        text-decoration: none;
+        font-weight: bold;    
+}
+    .main3 h1 {
+        text-decoration: none;
+        font-weight: bold;
     }
-    
+    .footermenu {
+        z-index: 1;
+        position: relative;
+        right: -1vw;
+        top: 2vw;
+        color: white;
+        height: 10vh;
+    }
+
 
 } 
